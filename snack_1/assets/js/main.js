@@ -11,7 +11,7 @@ const cars = [
   {
     marca: "Fiat",
     modello: "Punto",
-    alimentazione: "diesel",
+    alimentazione: "gpl",
   },
   {
     marca: "Fiat",
@@ -31,12 +31,12 @@ const cars = [
   {
     marca: "Mercedes",
     modello: "Classe A",
-    alimentazione: "benzina",
+    alimentazione: "diesel",
   },
   {
     marca: "Ford",
-    modello: "Focus",
-    alimentazione: "gpl",
+    modello: "Mustang GT",
+    alimentazione: "benzina",
   },
   {
     marca: "Pegeaut",
