@@ -46,3 +46,5 @@ persons.forEach((person) => {
 })
 
 console.log(patentati);
+const patentatiScreen = document.querySelector('.patentati');
+patentatiScreen.innerHTML = patentati;
