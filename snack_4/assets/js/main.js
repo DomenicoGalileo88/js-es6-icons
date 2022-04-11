@@ -35,12 +35,13 @@ const persons = [
 const patentati = [];
 persons.forEach((person) => {
   
-  if (person.eta > 18) {
+  if (person.eta >= 18) {// se l'età della persona è >= di 18 allora stampami in console, il suo nome, il suo cognome e scrivi che può guidare
     console.log(person.nome, person.eta);
     patentati.push(`${person.nome} ${person.cognome} Puoi guidare`)
   } else {
+    // Altrimenti l'età della persona è < di 18, allora stampami in console, il suo nome, il suo cognome e scrivi che non può guidare
     console.log(person.nome, person.eta);
-    patentati.push(`${person.nome} ${person.cognome}  Non puoi guidare`);
+    patentati.push(`${person.nome} ${person.cognome} Non puoi guidare`);
   }
 })
 
