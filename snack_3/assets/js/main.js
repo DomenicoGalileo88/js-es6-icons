@@ -38,5 +38,5 @@ const mammiferi = animals.filter((animal) => {
   }
   return false
 });
-console.log('I mammiferi sono:');
+console.log(`I mammiferi sono: ${animal.nome}`);
 console.log(mammiferi);
