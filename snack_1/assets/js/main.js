@@ -89,5 +89,3 @@ let altre = cars.filter((car) => {
 })
 console.log("Le auto che non sono benzina e diesel sono:");
 console.log(altre);
-
-//Infine stampa separatamente i 3 array. 
